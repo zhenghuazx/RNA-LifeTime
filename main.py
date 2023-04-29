@@ -163,11 +163,6 @@ if __name__ == "__main__":
                         help="The batch size.",
                         default=4, type=int)
 
-    parser.add_argument("--dtype",
-                        dest="dtype",
-                        help="Data type.",
-                        default='float32', type=str)
-
     parser.add_argument("-lr", "--learning-rate",
                         dest="lr",
                         help="Learning rate",
@@ -234,6 +229,10 @@ if __name__ == "__main__":
                         help="Multiplicative factor of learning rate decay.",
                         default=0.3, type=float)
 
+    parser.add_argument("--dtype",
+                        dest="dtype",
+                        help="Data type.",
+                        default='float32', type=str)
     options = parser.parse_args()
 
     print('OPTIONS ', options)

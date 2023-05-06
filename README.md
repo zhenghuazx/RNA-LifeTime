@@ -20,18 +20,17 @@ contacts present in the current structure to the number of contacts in the nativ
 
 As the RNA molecule degrades, the fraction of native contacts reflects the percentage of the sequence that remains integrated.
 The native conformation of the molecule is represented by the inter-residue distances and their contact types, i.e. 
-&$\mathbf{X}_0=(\mathbf{D}, \mathbf{C})$&
+$$\mathbf{X}\_0=(\mathbf{D}, \mathbf{C})$$
 where 
 * $\mathbf{D}$ : the $(i,j)$-entry of $\mathbf{D}$ represents the pair distance between 
 residues $i$ and $j$ in the folded (native) state; 
 * $\mathbf{C}$: the $(i,j, k)$-entry of the tensor $\mathbf{C}$ represents the $k$th type of contact between residues $i$ and $j$ in the folded (native) state. 
 
-We consider \textit{input} as the initial
-conformation of a RNA molecule and the environment condition, that is $\mathbf{S}_0 = (\mathbf{X}_0, \pmb{z})$. 
+The input is the initial conformation of a RNA molecule and the environment condition, that is $\mathbf{S}_0 = (\mathbf{X}_0, \pmb{z})$. 
 
 At any time $t$, the output of interest is the RNA lifetime probability (faction of native contacts) matrix 
 $$Q(t|\mathbf{X}\_0,\pmb{z})\equiv
-    \frac{1}{|\mathbb{C}(\mathbf{X})|}\sum_{(i,j)\in\mathbb{C}(\mathbf{X})} \frac{1}{1+e^{\beta (r_{ij}(t|\mathbf{X}\_0,\pmb{z})-\lambda r_{ij}(0|\mathbf{X}_0,\pmb{z}))}}$$
+    \frac{1}{|\mathbb{C}(\mathbf{X})|}\sum_{(i,j)\in\mathbb{C}(\mathbf{X})} $$
 
 
 ![](assets/Network.png)

@@ -30,8 +30,8 @@ We consider \textit{input} as the initial
 conformation of a RNA molecule and the environment condition, that is $\mathbf{S}_0 = (\mathbf{X}_0, \pmb{z})$. 
 
 At any time $t$, the output of interest is the RNA lifetime probability (faction of native contacts) matrix 
-$$Q(t|\mathbf{X}_0,\pmb{z})\equiv
-    \frac{1}{|\mathbb{C}(\mathbf{X})|}\sum_{(i,j)\in\mathbb{C}(\mathbf{X})} \frac{1}{1+e^{\beta (r_{ij}(t|\mathbf{X}_0,\pmb{z})-\lambda r_{ij}(0|\mathbf{X}_0,\pmb{z}))}}$$
+$$Q(t|\mathbf{X}\_0,\pmb{z})\equiv
+    \frac{1}{|\mathbb{C}(\mathbf{X})|}\sum_{(i,j)\in\mathbb{C}(\mathbf{X})} \frac{1}{1+e^{\beta (r_{ij}(t|\mathbf{X}\_0,\pmb{z})-\lambda r_{ij}(0|\mathbf{X}_0,\pmb{z}))}}$$
 
 
 ![](assets/Network.png)

@@ -37,6 +37,10 @@ setuptools.setup(
         'torch',
         'numpy',
         'pandas'
-        'tensorboard'
+        'tensorboard',
+        'bs4',  # for processing MD simulation trajectory
+        'keras',  # for processing MD simulation trajectory
+        'mdtraj',  # for processing MD simulation trajectory
+        'scikit-learn'  # for processing MD simulation trajectory
     ],
 )

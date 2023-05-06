@@ -31,7 +31,6 @@ conformation of a RNA molecule and the environment condition, that is $\mathbf{S
 
 At any time $t$, the output of interest is the RNA lifetime probability (faction of native contacts) matrix 
 $$Q(t|\mathbf{X}_0,\pmb{z})\equiv
-    %\defeq 
     \frac{1}{|\mathbb{C}(\mathbf{X})|}\sum_{(i,j)\in\mathbb{C}(\mathbf{X})} \frac{1}{1+e^{\beta (r_{ij}(t|\mathbf{X}_0,\pmb{z})-\lambda r_{ij}(0|\mathbf{X}_0,\pmb{z}))}}$$
 
 
@@ -47,10 +46,10 @@ Tensor shapes are shown with $N$ representing the number of residues, $C_t$ repr
 | **RNA-LifeTime ($C_g=5$)** | 42,366            | 67.44 (2.1)  | 0.1461 (0.002) | 0.090 (0.002) | $\approx$ 4 Hours                  |
 |       **MD-Average**       | -                 | 52.5         | 0.1238         | 0.067         | $\approx$ 1 weeks (using 6-8 GPUs) |
 
-The results in Table~\ref{table: performance} demonstrate that RNA-LifeTime achieved high accuracy in the lifetime probability prediction. Here the MD simulation is the ground true model. RNA-LifeTime performs better than AFT-Linear in terms of MAE-LT, MAE, and MSE, while having much fewer parameters and a shorter training time. This suggests that RNA-LifeTime is more efficient and accurate for predicting RNA degradation rate. Among the RNA-LifeTime models tested, the one with $C_g=5$ achieves the best performance, with an MAE-LT of 67.44 (2.1), a MAE of 0.1461 (0.002), and an MSE of 0.090 (0.002).
+The results in the table demonstrate that RNA-LifeTime achieved high accuracy in the lifetime probability prediction. Here the MD simulation is the ground true model. RNA-LifeTime performs better than AFT-Linear in terms of MAE-LT, MAE, and MSE, while having much fewer parameters and a shorter training time. This suggests that RNA-LifeTime is more efficient and accurate for predicting RNA degradation rate. Among the RNA-LifeTime models tested, the one with $C_g=5$ achieves the best performance, with an MAE-LT of 67.44 (2.1), a MAE of 0.1461 (0.002), and an MSE of 0.090 (0.002).
 %in approximately 4 hours of training time. 
 
-Furthermore, we compute the MAE-LT, MAE, and MSE for the mean trajectories of the MD simulation (MD-average) to represent the intrinsic randomness in the system (refer to the last row of Table~\ref{table: performance}). These results approximate the lowest achievable error. In comparison, the estimation errors of RNA-LifeTime are close to those of the MD-average, suggesting that RNA-LifeTime demonstrates a strong performance.
+Furthermore, we compute the MAE-LT, MAE, and MSE for the mean trajectories of the MD simulation (MD-average) to represent the intrinsic randomness in the system (refer to the last row of the table). These results approximate the lowest achievable error. In comparison, the estimation errors of RNA-LifeTime are close to those of the MD-average, suggesting that RNA-LifeTime demonstrates a strong performance.
 
 Installation
 ======================================

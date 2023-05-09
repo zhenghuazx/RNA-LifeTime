@@ -35,7 +35,7 @@ setuptools.setup(
     include_package_data=True,
     install_requires=[
         'torch',
-        'numpy',
+        'numpy==1.21.6',
         'pandas'
         'tensorboard',
         'bs4',  # for processing MD simulation trajectory

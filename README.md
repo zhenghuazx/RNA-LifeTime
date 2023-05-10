@@ -4,7 +4,9 @@ RNA-LifeTIme: A deep learning framework for RNA lifetime prediction.
 
 **Cite us**: Hua Zheng, Wei Xie, Paul Whitford, Ailun Wang, Chunsheng Fang, Wandi Xu. (2023). _Structure-Function Dynamics Hybrid Modeling: RNA Degradation_. arXiv preprint arXiv:2305.03925.
 
-vLab is a package for RNA lifetime prediction task written in pytorch. 
+
+
+vLab is a package for RNA lifetime prediction task written in pytorch. **The MD simulation data will be available soon.**
 
 Predicting RNA degradation dynamics based on its 3D conformation remains a challenge due to the underdeveloped 
 methodologies for modeling tertiary structure input. Current state-of-the-art RNA degradation predictive models 

@@ -6,7 +6,7 @@ RNA-LifeTIme: A deep learning framework for RNA lifetime prediction.
 
 
 
-vLab is a package for RNA lifetime prediction task written in pytorch. **The MD simulation data will be available soon.**
+RNA-LifeTIme is a package for RNA lifetime prediction task written in pytorch. **The MD simulation data will be available in June.**
 
 Predicting RNA degradation dynamics based on its 3D conformation remains a challenge due to the underdeveloped 
 methodologies for modeling tertiary structure input. Current state-of-the-art RNA degradation predictive models 

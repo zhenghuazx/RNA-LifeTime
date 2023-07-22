@@ -36,6 +36,7 @@ At any time $t$, the output of interest is the RNA lifetime probability (faction
 
 
 ![](assets/Network.png)
+
 RNA-LifeTime Model architecture: Arrows show the information flow among the various components described in this paper. 
 Tensor shapes are shown with $N$ representing the number of residues, $C_t$ representing the number of types of native contacts, $C_g$ representing the number of Gaussians.
 

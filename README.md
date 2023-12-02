@@ -19,6 +19,9 @@ protein/RNA folding mechanism. We adopt this concept and apply it to RNA degrada
 (Figure above) by studying the trajectory of fraction of native contacts, i.e., the ratio of the number of 
 contacts present in the current structure to the number of contacts in the native structure.
 
+# MD Simulation Data
+The preprocessed MD simulation data can be downloaded via [link](https://drive.google.com/drive/folders/1nQzeaLRd1kGm7hutRrXlzk3OwONfcXSA?usp=sharing)
+.
 
 # Model Architecture
 

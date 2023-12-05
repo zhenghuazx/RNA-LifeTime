@@ -6,7 +6,7 @@ RNA-LifeTIme: A deep learning framework for RNA lifetime prediction.
 
 
 
-RNA-LifeTIme is a package for RNA lifetime prediction task written in pytorch. **The MD simulation data will be available in June.**
+RNA-LifeTIme is a package for RNA lifetime prediction task written in pytorch.
 
 Predicting RNA degradation dynamics based on its 3D conformation remains a challenge due to the underdeveloped 
 methodologies for modeling tertiary structure input. Current state-of-the-art RNA degradation predictive models 
@@ -118,3 +118,4 @@ python main.py -e 15 -b 512 -lr 0.003 -c ./MD-simulation/models/ -m RNA-LifeTime
 If you have any questions, or just want to chat about using the package,
 please feel free to contact me in the [Website](https://zhenghuazx.github.io/hua.zheng/).
 For bug reports, feature requests, etc., please submit an issue to the email <zheng.hua1@northeastern.edu>.
+
